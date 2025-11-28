@@ -107,7 +107,7 @@ format:
 <object data="output/Hodges_line.html" type="text/html" style="width: 100%; height: 610px;"></object>
 :::
 
-[Hodges-Hodge Patriarch Page](https://www.hodges-hodge-society.org/pats.htm?utm_source=chatgpt.com)
+[Hodges-Hodge Patriarch Page](https://www.hodges-hodge-society.org/pats.htm?utm_source=chatgpt.com). A prominent early settler of Central Texas that may be connected to this tree was [James Hodges Sr. (1775-1846)](https://www.findagrave.com/memorial/115911673/james-hodges).
 
 *Potential identity matches for William Hodges, father of James William Hodges (b. 1881): 1) [JW Hodges (1862-1908)](https://www.findagrave.com/memorial/98279130/j-w-hodges), 2) [William David Hodges (1852-1924)](https://www.findagrave.com/memorial/42648839/william_david-hodges), 3) [William Jasper Hodges (1865-1924)](https://www.findagrave.com/memorial/139029101/william_jasper-hodges)
 
