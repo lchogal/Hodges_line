@@ -1,0 +1,40 @@
+digraph family_tree {
+    rankdir=TB;
+    bgcolor=white;
+    margin=0.1;
+    pad=0.1;
+    ranksep=0.3;
+    nodesep=0.2;
+    node [shape=box, style="filled,rounded", fontname="Arial", fontsize=10, fixedsize=false, margin=0.1];
+    edge [color=black, penwidth=1.5];
+    
+    
+    "G0_ME" [label="Chauncey William Hodges** 🔗\nb. 1910, TX\nd. 1977, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908643/chauncey_william-hodges", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Vivian Scott Hodges Kline 🔗\nd. 1915, TX\nd. 2000, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908714/vivian-hodges_kline", target="_blank", tooltip=""];
+    "G1_FATHER" [label="James William Hodges\nb. 1881, TX\nd. TX", fillcolor="lightcoral", style="filled,rounded", tooltip=""];
+    "G1_MOTHER" [label="Ellen Dickerson†\nb, 1890, TX\nd. TX", fillcolor="lightcoral", style="filled,rounded", tooltip=""];
+    "G2_PATERNAL_GF" [label="William Hodges*\nb. TN?\nd.", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
+    "G2_PATERNAL_GM" [label="Bonnie\nb. TN?\nd.", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
+    "G2_MATERNAL_GF" [label="Robert Dickerson\nb.\nd.", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
+    "G2_MATERNAL_GM" [label="Fannie Maude Baye\nb.\nd.", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
+    
+    // Tree navigation connection boxes
+    
+    // Marriage relationships and rank constraints
+    {rank=same; "G0_ME"; "G0_SPOUSE"};
+    "G0_ME" -> "G0_SPOUSE" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G1_FATHER"; "G1_MOTHER"};
+    "G1_FATHER" -> "G1_MOTHER" [dir=none, color=black, style=dashed, constraint=false, label="m. 1908", fontsize=10, fontcolor=black];
+    {rank=same; "G2_PATERNAL_GF"; "G2_PATERNAL_GM"};
+    "G2_PATERNAL_GF" -> "G2_PATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    {rank=same; "G2_MATERNAL_GF"; "G2_MATERNAL_GM"};
+    "G2_MATERNAL_GF" -> "G2_MATERNAL_GM" [dir=none, color=black, style=dashed, constraint=false];
+    
+    // Parent-child relationships
+    "G1_FATHER" -> "G0_ME";
+    "G1_MOTHER" -> "G0_ME";
+    "G2_PATERNAL_GF" -> "G1_FATHER";
+    "G2_PATERNAL_GM" -> "G1_FATHER";
+    "G2_MATERNAL_GF" -> "G1_MOTHER";
+    "G2_MATERNAL_GM" -> "G1_MOTHER";
+}

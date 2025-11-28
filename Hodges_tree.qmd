@@ -1,0 +1,120 @@
+---
+format:
+  html:
+    output-file: index.html
+    theme: default
+    toc: false
+    page-layout: full
+    css: |
+      body {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .quarto-container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .family-tree {
+        max-width: 100%;
+        height: auto;
+        margin: 1em 0;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        padding: 0.5em;
+        background-color: #fafafa;
+      }
+
+      .family-tree svg {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        min-height: 600px;
+      }
+
+      .family-tree img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        min-height: 600px;
+      }
+
+      /* Interactive hover effects only for tree connections */
+      .tree-connection {
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .tree-connection:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+      }
+
+      .tree-connection:hover path {
+        stroke-width: 3 !important;
+      }
+
+      .tree-connection:hover text {
+        font-weight: bold;
+        font-size: 11px;
+      }
+
+      .tree-description {
+        margin-top: 1em;
+        padding: 1em;
+        background-color: #f8f9fa;
+        border-left: 4px solid #007bff;
+        font-style: italic;
+      }
+
+      h1, h2, h3 {
+        color: #333;
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 0.5em;
+        text-align: center;
+        margin: 1em 0;
+      }
+
+      /* Ensure footer scrolls with page */
+      footer, .footer {
+        position: static !important;
+        margin-top: 2em;
+        padding: 1em;
+      }
+
+      @media (max-width: 768px) {
+        .family-tree {
+          margin: 0.5em 0;
+          padding: 0.3em;
+        }
+
+        .family-tree svg,
+        .family-tree img {
+          min-height: 400px;
+        }
+      }
+---
+
+## Hodges line
+
+::: family-tree
+<object data="output/Hodges_line.html" type="text/html" style="width: 100%; height: 610px;"></object>
+:::
+
+[Hodges-Hodge Patriarch Page](https://www.hodges-hodge-society.org/pats.htm?utm_source=chatgpt.com)
+
+*Potential identity matches for William Hodges, father of James William Hodges (b. 1881): 1) [JW Hodges (1862-1908)](https://www.findagrave.com/memorial/98279130/j-w-hodges), 2) [William David Hodges (1852-1924)](https://www.findagrave.com/memorial/42648839/william_david-hodges), 3) [William Jasper Hodges (1865-1924)](https://www.findagrave.com/memorial/139029101/william_jasper-hodges)
+
+†Ellen's sister was Casandra Dickerson (or Dickinson) (b. 1883), wife of John David Hodges (1878-1944) and mother to [Golda Lena Hodges Roscoe Weatherford (1910-1999)](https://ancestors.familysearch.org/en/G316-K9K/golda-lena-elizabeth-hodges-1910-1999) and [Cecil David Hodges (1902-1981)](https://ancestors.familysearch.org/en/G316-HRH/cecil-david-hodges-1902-1981). [John David Hodges (1878-1944)](https://ancestors.familysearch.org/en/L21M-5YS/john-david-hodges-1878-1944) is likely the brother of James William Hodges (b. 1881). This affirms verbal Hodges family history that "two Hodges brothers married two sisters from another family". Another possible family connection is an AJ Dickerson who married a Fannie Hodges in 1883 in Gonzales County, TX.
+
+**Chauncey's siblings were [Wanda Ellen Hodges Lackey (1925-2014)](https://www.thomasonfuneralhome.com/obituaries/Wanda-Ellen-Lackey?obId=2357801) and [Charles J. Hodges (1927-2012)](https://www.dignitymemorial.com/obituaries/tyler-tx/charles-hodges-5228366). Chauncey and Vivian's children were [Thomas Leslie Hodges (1936-2020)](Hodges_docs/thomas_leslie_hodges_obit.pdf) and [Jimmy Mack Hodges (1937-2023)](Hodges_docs/jimmy_mack_hodges_obit.pdf).
+
+This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Chauncey William Hodges (1910-1977). Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published November 2024, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Hodges_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).
+
+

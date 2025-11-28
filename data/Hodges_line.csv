@@ -1,0 +1,9 @@
+﻿Person_ID,Full_Name,Generation,Chart_Display_Name,Chart_Birth_Info,Chart_Death_Info,Father_ID,Mother_ID,Spouse_ID,Chart_Marriage_Info,Primary_URL,Notes,Tree_Connection
+G0_ME,Chauncey William Hodges,0,Chauncey William Hodges**,"b. 1910, TX","d. 1977, TX",G1_FATHER,G1_MOTHER,G0_SPOUSE,,https://www.findagrave.com/memorial/106908643/chauncey_william-hodges,,
+G0_SPOUSE,Vivian Scott Hodges Kline,0,Vivian Scott Hodges Kline,"d. 1915, TX","d. 2000, TX",,,G0_ME,,https://www.findagrave.com/memorial/106908714/vivian-hodges_kline,,
+G1_FATHER,James William Hodges,1,James William Hodges,"b. 1881, TX",d. TX,G2_PATERNAL_GF,G2_PATERNAL_GM,G1_MOTHER,m. 1908,,,
+G1_MOTHER,Ellen Dickerson,1,Ellen Dickerson†,"b, 1890, TX",d. TX,G2_MATERNAL_GF,G2_MATERNAL_GM,G1_FATHER,m. 1908,,,
+G2_PATERNAL_GF,William Hodges,2,William Hodges*,b. TN?,d.                ,,,G2_PATERNAL_GM,,,,
+G2_PATERNAL_GM,Bonnie,2,Bonnie,b. TN?,d.                ,,,G2_PATERNAL_GF,,,,
+G2_MATERNAL_GF,Robert Dickerson,2,Robert Dickerson,b.             ,d.           ,,,G2_MATERNAL_GM,,,,
+G2_MATERNAL_GM,Fannie Maude Baye,2,Fannie Maude Baye,b.             ,d.            ,,,G2_MATERNAL_GF,,,,
