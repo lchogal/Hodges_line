@@ -115,6 +115,6 @@ Notes:
 **Ellen's sister, Dinah Casandra Dickerson (or Dickinson) (b. 1883), married the brother of James William Hodges, [John David Hodges (1878-1944)](https://ancestors.familysearch.org/en/L21M-5YS/john-david-hodges-1878-1944).
 
 
-This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Chauncey William Hodges (1910-1977). Research relied on crowd-sourced information from Geni.com, WikiTree.com, FamilySearch.org, and FindAGrave.com. The current tree, published January 2026, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Hodges_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).
+This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Chauncey William Hodges (1910-1977). Research relied on crowd-sourced information from Geni.com, WikiTree.com, FamilySearch.org, and FindAGrave.com. The current tree, published January 2026, should be considered a working draft while primary historical sources are verified. Family tree diagrams were generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Hodges_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).
 
 
