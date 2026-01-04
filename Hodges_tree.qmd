@@ -107,13 +107,14 @@ format:
 <object data="output/Hodges_line.html" type="text/html" style="width: 100%; height: 610px;"></object>
 :::
 
-[Hodges-Hodge Patriarch Page](https://www.hodges-hodge-society.org/pats.htm?utm_source=chatgpt.com) shows members of several lineages that settled in Central Texas.
+Notes: 
+[Hodges-Hodge Patriarch Page](https://www.hodges-hodge-society.org/pats.htm?utm_source=chatgpt.com) shows members from several lineages that settled in Central Texas.
 
 *Several potential matches for William Hodges, father of James William Hodges (b. 1881) are 1) [JW Hodges (1862-1908)](https://www.findagrave.com/memorial/98279130/j-w-hodges), 2) [William David Hodges (1852-1924)](https://www.findagrave.com/memorial/42648839/william_david-hodges), 3) [William Jasper Hodges (1865-1924)](https://www.findagrave.com/memorial/139029101/william_jasper-hodges)
 
-**Ellen's sister, Dinah Casandra Dickerson (or Dickinson) (b. 1883), married the brother of James William Hodges, John David Hodges (1878-1944), [John David Hodges (1878-1944)](https://ancestors.familysearch.org/en/L21M-5YS/john-david-hodges-1878-1944).
+**Ellen's sister, Dinah Casandra Dickerson (or Dickinson) (b. 1883), married the brother of James William Hodges, [John David Hodges (1878-1944)](https://ancestors.familysearch.org/en/L21M-5YS/john-david-hodges-1878-1944).
 
 
-This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Chauncey William Hodges (1910-1977). Research relied on crowd-sourced information from Geni.com, FamilySearch.org, and FindAGrave.com. The current tree, published November 2024, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Hodges_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).
+This webpage was created by <a href="https://lchogal.github.io/cv/">Leslie Hodges Gallagher</a>, granddaughter of Chauncey William Hodges (1910-1977). Research relied on crowd-sourced information from Geni.com, WikiTree.com, FamilySearch.org, and FindAGrave.com. The current tree, published January 2026, should be considered a working draft while primary historical sources are verified. Family tree diagrams generated using Python with Graphviz. Supporting files can be found in the [GitHub repository](https://github.com/lchogal/Hodges_line). If you have questions or find issues, please contact [hodges.gallagher@gmail.com](mailto:hodges.gallagher@gmail.com).
 
 
