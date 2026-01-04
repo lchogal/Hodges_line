@@ -9,10 +9,10 @@ digraph family_tree {
     edge [color=black, penwidth=1.5];
     
     
-    "G0_ME" [label="Chauncey William Hodges** 🔗\nb. 1910, TX\nd. 1977, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908643/chauncey_william-hodges", target="_blank", tooltip=""];
-    "G0_SPOUSE" [label="Vivian Scott Hodges Kline 🔗\nd. 1915, TX\nd. 2000, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908714/vivian-hodges_kline", target="_blank", tooltip=""];
+    "G0_ME" [label="Chauncey William Hodges 🔗\nb. 1910, TX\nd. 1977, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908643/chauncey_william-hodges", target="_blank", tooltip=""];
+    "G0_SPOUSE" [label="Vivian Ione Scott 🔗\nd. 1915, TX\nd. 2000, TX", fillcolor="gold", style="filled,rounded", URL="https://www.findagrave.com/memorial/106908714/vivian-hodges_kline", target="_blank", tooltip=""];
     "G1_FATHER" [label="James William Hodges\nb. 1881, TX\nd. TX", fillcolor="lightcoral", style="filled,rounded", tooltip=""];
-    "G1_MOTHER" [label="Ellen Dickerson†\nb, 1890, TX\nd. TX", fillcolor="lightcoral", style="filled,rounded", tooltip=""];
+    "G1_MOTHER" [label="Ellen Dickerson**\nb, 1890, TX\nd. TX", fillcolor="lightcoral", style="filled,rounded", tooltip=""];
     "G2_PATERNAL_GF" [label="William Hodges*\nb. TN?\nd.", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
     "G2_PATERNAL_GM" [label="Bonnie\nb. TN?\nd.", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];
     "G2_MATERNAL_GF" [label="Robert Dickerson\nb.\nd.", fillcolor="lightsteelblue", style="filled,rounded", tooltip=""];

@@ -10,7 +10,7 @@ https://lchogal.github.io/Hodges_line/
 
 Created by [Leslie Hodges Gallagher](https://lchogal.github.io/cv/), granddaughter of Chauncey William Hodges (1910-1977).
 
-Research compiled from Geni.com, FamilySearch.org, and FindAGrave.com. This is a working draft - primary sources are still being verified.
+Research compiled from Geni.com, FamilySearch.org, WikiTree and FindAGrave.com. This is a working draft - primary sources are still being verified.
 
 ## Requirements
 

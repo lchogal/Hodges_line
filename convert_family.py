@@ -3,7 +3,7 @@
 import pandas as pd
 import os
 import glob
-
+import re
 import subprocess
 
 def create_family_tree(csv_file, output_dir="output"):
@@ -76,7 +76,7 @@ def create_family_tree(csv_file, output_dir="output"):
                 name = str(person["Chart_Display_Name"]).strip().replace('"', '\\"')
             else:
                 name = str(person["Full_Name"]).strip().replace('"', '\\"')
-            
+
             # Get birth info
             if "Chart_Birth_Info" in person and pd.notna(person["Chart_Birth_Info"]):
                 birth_info = str(person["Chart_Birth_Info"]).strip().replace('"', '\\"')
@@ -84,9 +84,9 @@ def create_family_tree(csv_file, output_dir="output"):
                 birth_info = str(person["Birth_Info"]).strip().replace('"', '\\"')
             else:
                 birth_info = "Unknown"
-            
+
             birth_line = f"{birth_info}" if birth_info != "Unknown" else "Birth: Unknown"
-            
+
             # Get death info
             death_line = ""
             if "Chart_Death_Info" in person and pd.notna(person["Chart_Death_Info"]):
@@ -191,7 +191,7 @@ def create_family_tree(csv_file, output_dir="output"):
                     marriage_info.append(str(person["Marriage_Date"]).strip().replace('"', '\\"'))
                 if "Marriage_Location" in person and pd.notna(person["Marriage_Location"]):
                     marriage_info.append(str(person["Marriage_Location"]).strip().replace('"', '\\"'))
-                
+
                 marriage_label = "\\n".join(marriage_info) if marriage_info else ""
                 
                 # Keep spouses on same rank (horizontal line)
